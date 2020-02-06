@@ -244,6 +244,14 @@ Although I'm not currently looking for freelance opportunities, my inbox is alwa
   </a>
 </footer>
 <script type="text/javascript">
+function onScrollStopped(domElement, callback, timeout = 250) {
+  domElement.addEventListener('scroll', () => {
+  	clearTimeout(callback.timeout);
+    callback.timeout = setTimeout(callback, timeout);
+  });
+}
+
+
 $(document).ready(function(){
 
   $(document).on("scroll", function(){
@@ -252,6 +260,9 @@ $(document).ready(function(){
      } else {
           $('.header').css("box-shadow","none").fadeIn('slow');
      }
+  });
+  onScrollStopped(window, () => {
+    $('.header').css("box-shadow","none").fadeIn('slow');
   });
 
   $(".hamburger").click(function(){
