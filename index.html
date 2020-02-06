@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
   <script src="https://kit.fontawesome.com/75ad4010ea.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="main.css">
   <title>Adam Torok || Web Developer</title>
@@ -12,7 +13,9 @@
 <body oncontextmenu="return false">
 <header class="header">
   <nav class="nav">
-    <div class="nav__logo"></div>
+    <div class="nav__logo">
+        <a  class="social__side-link-link" href=""><i class="fab fa-github fa-1x"></i></a>
+      </div>
     <div class="hamburger">
       <div class="hamburger-box">
         <div class="hamburger-box-inner">
@@ -42,13 +45,16 @@
       <nav>
         <ol class="menu__navList">
           <li class="menu__navList-item">
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li class="menu__navList-item">
-            <a href="#">About</a>
+            <a href="#exp">Experience</a>
           </li>
           <li class="menu__navList-item">
-            <a href="#">About</a>
+            <a href="#work">Work</a>
+          </li>
+          <li class="menu__navList-item">
+            <a href="#contact">Contact</a>
           </li>
         </ol>
       </nav>
@@ -237,5 +243,21 @@ Although I'm not currently looking for freelance opportunities, my inbox is alwa
     </div>
   </a>
 </footer>
+<script type="text/javascript">
+$(document).ready(function(){
+
+  $(document).on("scroll", function(){
+    if ($(document).scrollTop() >= 50) {
+       $('.header').css("box-shadow","rgba(2, 12, 27, 0.7) 0px 10px 30px -10px").fadeIn('slow');
+     } else {
+          $('.header').css("box-shadow","none").fadeIn('slow');
+     }
+  });
+
+  $(".hamburger").click(function(){
+    $(".mobile-menu").toggle();
+  })
+})
+</script>
 </body>
 </html>
