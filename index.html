@@ -6,8 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <script src="https://kit.fontawesome.com/75ad4010ea.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" charset="utf-8"></script>
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="animate.css">
   <title>Adam Torok || Web Developer</title>
@@ -85,9 +87,9 @@
     <a class="main__button" href="#contact">Keep in touch</a>
   </section>
   <section id="about" class="about__first_section">
-    <div  class="about__first">
-      <h3 class="about__firstHeading">About Me</h3>
-      <div class="about__introduce">
+    <div data-aos="fade-up" class="about__first">
+      <h3  class="about__firstHeading">About Me</h3>
+      <div  class="about__introduce">
         Hello! I'm Adam, a software engineer based in Szeged, MA who enjoys building things that live on the internet.
         I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
       </div>
@@ -106,12 +108,12 @@
         <li>GIT</li>
       </ul>
     </div>
-    <div class="about__first_img">
+    <div data-aos="fade-up" class="about__first_img">
       <img src="me.jpg" alt="">
     </div>
   </section>
-  <section id="exp" class="jobs__first_section">
-    <h3 class="jobs__firstHeading">Where I've Worked</h3>
+  <section data-aos="fade-right" id="exp" class="jobs__first_section">
+    <h3 data-aos="fade-right" data-aos-duration="3000" class="jobs__firstHeading">Where I've Worked</h3>
     <div class="jobs__introduce">
       <h4>
         <span>Front End Engineer</span>
@@ -166,8 +168,8 @@
       </div>
     </div>
   </section>
-  <section id="work" class="projects__first_section">
-    <h3 class="projects__firstHeading">Projects</h3>
+  <section data-aos="fade-right" id="work" class="projects__first_section">
+    <h3  data-aos="fade-right"  data-aos-duration="3000" class="projects__firstHeading">Projects</h3>
     <div class="projects__featured">
       <div class="featured">
         <h4>Featured Project</h4>
@@ -229,8 +231,8 @@
       </a>
     </div>
   </section>
-  <section id="contact" class="contact">
-    <h3>What's Next?</h3>
+  <section data-aos="fade-right"  id="contact" class="contact">
+    <h3 data-aos="fade-right" data-aos-duration="3000">What's Next?</h3>
     <h4>Get In Touch</h4>
     <div>
 Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!
@@ -255,6 +257,7 @@ function onScrollStopped(domElement, callback, timeout = 250) {
 
 
 $(document).ready(function(){
+  AOS.init();
 
   $(document).on("scroll", function(){
     if ($(document).scrollTop() >= 50) {
