@@ -811,12 +811,14 @@ footer{
     padding-left: 30px;
     margin-bottom: 10px;
   }
+  .about__firstHeading{
+    position: inital;
+    display: block;
+  }
   .projects__first_section{
     padding: 100px 0px;
   }
   .projects__featured{
-
-    margin-bottom: 70px;
   }
   .featured{
     padding: 30px 25px 20px;
@@ -832,6 +834,9 @@ footer{
     height: 100%;
     filter: grayscale(100%) contrast(1) brightness(80%);
     grid-column: 1 / -1;
+  }
+  .jobs__introduce{
+    padding-left: 0;
   }
   .about__first p{
     padding: 1rem;
@@ -849,6 +854,7 @@ footer{
     padding-top: 150px;
     min-height: 100vh;
   }
+
   .main{
     padding: 0px 25px;
     padding-top: 0px;
