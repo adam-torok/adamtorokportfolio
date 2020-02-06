@@ -1,0 +1,161 @@
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(10, 25, 47);
+  color: rgb(136, 146, 176);
+  line-height: 1.3;
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  font-size: 20px;
+  margin: 0px;
+}
+a{
+  display: inline-block;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  cursor: pointer;
+  color:rgb(136, 146, 176);
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+a:hover{
+  color: rgb(136, 146, 176);
+}
+.main{
+  width: 100%;
+  max-width: 1600px;
+  min-height: 100vh;
+  counter-reset: section 0;
+  padding: 200px 150px;
+  margin: 0px auto;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  background-color: rgb(10, 25, 47);
+  z-index: 11;
+  width: 100%;
+  height: 100px;
+  box-shadow: none;
+  transform: translateY(0px);
+  filter: none !important;
+  pointer-events: auto !important;
+  user-select: auto !important;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+.nav{
+  color: rgb(204, 214, 246);
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  counter-reset: item 0;
+  z-index: 12;
+  width: 100%;
+}
+.nav__listItem{
+  padding: 0rem 2rem 0rem 0rem;
+  position: relative;
+  font-size: 13px;
+  counter-increment: item 1;
+  margin: 0px 10px;
+}
+.nav__listItem:hover{
+  color:white;
+}
+.nav__listItem ::before{
+  content: "0" counter(item) ".";
+  text-align: right;
+  color: rgb(100, 255, 218);
+  font-size: 12px;
+}
+.nav__list{
+  font-size: 13px;
+  counter-increment: item 1;
+  margin: 0px 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email_side{
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: auto;
+  right: 40px;
+  z-index: 10;
+  color: rgb(168, 178, 209);
+}
+.email_side::after{
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background-color: rgb(168, 178, 209);
+  margin: 0px auto;
+}
+.email__side-link{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}
+.email__side-link-link{
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: rgb(136, 146, 176);
+  text-decoration: none;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  margin: 20px auto;
+  padding: 10px;
+}
+.email__side-link-link:hover{
+  color:white;
+}
+.social_side{
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+  color: rgb(168, 178, 209);
+}
+.social_side::after{
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background-color: rgb(168, 178, 209);
+  margin: 0px auto;
+}
+.social__side-list{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.social__side-link-link:hover{
+  transform: translateY(-3px);
+  color:white!important;
+}
+
+/* ICONS */
+
+.fab{
+  color:rgb(136, 146, 176);
+  padding:15px;
+}
+.fab:hover{
+  color:white;
+}
