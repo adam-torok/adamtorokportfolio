@@ -74,7 +74,7 @@ a:hover{
 }
 .nav__list{
   font-size: 13px;
-  counter-increment: item 1;
+  counter-increment: item 0;
   margin: 0px 10px;
   list-style-type: none;
   display: flex;
