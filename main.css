@@ -12,7 +12,7 @@ body{
   width: 100%;
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
-  background-color: #363020;
+  background-color: #2f2d2e;
   color: white;
   line-height: 1.3;
   font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
@@ -29,12 +29,12 @@ a{
   color: inherit;
   position: relative;
   cursor: pointer;
-  color:#B49A67;
+  color:#99c24d;
   text-decoration: none;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 a:hover{
-  color: #B49A67;
+  color: #99c24d;
 }
 .main{
   max-width: 1600px;
@@ -53,7 +53,7 @@ a:hover{
   box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -10px;
   position: fixed;
   top: 0px;
-  background-color: #363020;
+  background-color: #2f2d2e;
   z-index: 11;
   width: 100%;
   height: 100px;
@@ -125,7 +125,7 @@ a:hover{
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   font-size: 12px;
   letter-spacing: 0.1em;
-  color: #B49A67;
+  color: #99c24d;
   text-decoration: none;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
@@ -169,7 +169,7 @@ a:hover{
 /* ICONS */
 
 .fab{
-  color:#B49A67;
+  color:#99c24d;
   padding:15px;
 }
 .fab:hover{
@@ -191,7 +191,7 @@ a:hover{
   padding: 50px 0px;
 }
 .main__first_section h1{
-  color:#B49A67;
+  color:#99c24d;
   font-size: 16px;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
 }
@@ -202,10 +202,10 @@ a:hover{
   margin: 0px;
 }
 .main__first_section h3{
-  color: #B49A67;
+  color: #99c24d;
 }
 .main__button{
-  color: #B49A67;
+  color: #99c24d;
   background-color: transparent;
   font-size: 14px;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
@@ -214,7 +214,7 @@ a:hover{
   margin-top: 50px;
   border-width: 1px;
   border-style: solid;
-  border-color: #B49A67;
+  border-color: #99c24d;
   border-image: initial;
   border-radius: 3px;
   padding: 1.25rem 1.75rem;
@@ -222,7 +222,7 @@ a:hover{
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 .main__button:hover{
-  color: #B49A67;
+  color: #99c24d;
 }
 
 
@@ -256,7 +256,7 @@ a:hover{
   margin-right: 10px;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   font-weight: normal;
-  color: #B49A67;
+  color: #99c24d;
   font-size: 20px;
   position: relative;
   bottom: -6px;
@@ -266,7 +266,7 @@ a:hover{
   display: block;
   height: 1px;
   width: 300px;
-  background-color: #B49A67;
+  background-color: #99c24d;
   position: relative;
   top: -0;
   margin-left: 20px;
@@ -286,14 +286,14 @@ a:hover{
   padding-left: 20px;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   font-size: 13px;
-  color: #B49A67;
+  color: #99c24d;
 }
 .about__skills li::before{
   content: "▹";
   position: absolute;
   left: 0px;
   top: 3px;
-  color: #B49A67;
+  color: #99c24d;
   font-size: 14px;
   line-height: 12px;
 }
@@ -320,7 +320,7 @@ a:hover{
   box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
   width: 100%;
   position: relative;
-  background-color: #B49A67;
+  background-color: #99c24d;
   margin-left: -20px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   border-radius: 3px;
@@ -373,7 +373,7 @@ a:hover{
   margin-right: 10px;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   font-weight: normal;
-  color: #B49A67;
+  color: #99c24d;
   font-size: 20px;
   position: relative;
   bottom: -6px;
@@ -383,7 +383,7 @@ a:hover{
   display: block;
   height: 1px;
   width: 300px;
-  background-color: #B49A67;
+  background-color: #99c24d;
   position: relative;
   top: -0;
   margin-left: 20px;
@@ -411,14 +411,14 @@ a:hover{
 
 }
 .jobs__workPlace{
-  color: #B49A67;
+  color: #99c24d;
 }
 .jobs__workPlace a{
   display: inline-block;
   text-decoration-skip-ink: auto;
   position: relative;
   cursor: pointer;
-  color: #B49A67;
+  color: #99c24d;
   text-decoration: none;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
@@ -436,7 +436,7 @@ a:hover{
 .jobs__explain ul li::before{
   content: "▹";
   left: 13px;
-  color: #B49A67;
+  color: #99c24d;
   font-size: 14px;
   padding-left: 0.3rem;
   padding: 5px;
@@ -471,7 +471,7 @@ a:hover{
   margin-right: 10px;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   font-weight: normal;
-  color: #B49A67;
+  color: #99c24d;
   font-size: 20px;
   position: relative;
   bottom: -6px;
@@ -481,7 +481,7 @@ a:hover{
   display: block;
   height: 1px;
   width: 300px;
-  background-color: #B49A67;
+  background-color: #99c24d;
   position: relative;
   top: -0;
   margin-left: 20px;
@@ -507,7 +507,7 @@ a:hover{
 .featured h4{
   font-size: 13px;
   font-weight: normal;
-  color: #B49A67;
+  color: #99c24d;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   margin-top: 10px;
   padding-top: 0px;
@@ -530,7 +530,7 @@ a:hover{
 .featured li{
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   font-size: 13px;
-  color: #B49A67;
+  color: #99c24d;
   margin-right: 20px;
   margin-bottom: 7px;
   white-space: nowrap;
@@ -616,7 +616,7 @@ a:hover{
   width: 100%;
   white-space: nowrap;
   display: block;
-  color: #B49A67;
+  color: #99c24d;
   font-size: 16px;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   font-weight: normal;
@@ -630,7 +630,7 @@ a:hover{
   margin-right: 10px;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   font-weight: normal;
-  color: #B49A67;
+  color: #99c24d;
   font-size: 20px;
   position: relative;
 }
@@ -646,7 +646,7 @@ footer{
   align-items: center;
   flex-direction: column;
   background-color: #605C4E;
-  color: #B49A67;
+  color: #99c24d;
   text-align: center;
   height: auto;
   min-height: 61px;
