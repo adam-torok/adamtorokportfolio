@@ -1,275 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="viewport" content="initial-scale=1.0, width=device-width">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-  <script src="https://kit.fontawesome.com/75ad4010ea.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" charset="utf-8"></script>
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="animate.css">
-  <title>Adam Torok || Web Developer</title>
-</head>
-<body oncontextmenu="return false">
-<header class="header">
-  <nav class="nav">
-    <div class="nav__logo">
-        <a  class="social__side-link-link" href=""><i class="fab fa-github fa-3x"></i></a>
-      </div>
-    <div class="hamburger">
-      <div class="hamburger-box">
-        <div class="hamburger-box-inner">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      charset="utf-8"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/75ad4010ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      charset="utf-8"
+    ></script>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="animate.css" />
+    <title>Adam Torok || Web Developer</title>
+  </head>
+  <body oncontextmenu="return false">
+    <header class="header">
+      <nav class="nav">
+        <div class="nav__logo">
+          <a class="social__side-link-link" href=""
+            ><i class="fab fa-github fa-3x"></i
+          ></a>
         </div>
-      </div>
-    </div>
-    <div class="nav__links">
-      <ol class="nav__list">
-        <li class="nav__listItem">
-          <a class="nav__listItemLink" href="#about">About</a>
-        </li>
-        <li class="nav__listItem">
-          <a class="nav__listItemLink" href="#exp">Experience</a>
-        </li>
-        <li class="nav__listItem">
-          <a class="nav__listItemLink" href="#work">Work</a>
-        </li>
-        <li class="nav__listItem">
-          <a class="nav__listItemLink" href="#contact">Contact</a>
-        </li>
-      </ol>
-    </div>
-  </nav>
-  <div class="mobile-menu ">
-    <aside class="mobile-menu-container">
-      <nav>
-        <ol class="menu__navList">
-          <li class="menu__navList-item">
-            <a href="#about">About</a>
-          </li>
-          <li class="menu__navList-item">
-            <a href="#exp">Experience</a>
-          </li>
-          <li class="menu__navList-item">
-            <a href="#work">Work</a>
-          </li>
-          <li class="menu__navList-item">
-            <a href="#contact">Contact</a>
-          </li>
-        </ol>
+        <div class="hamburger">
+          <div class="hamburger-box">
+            <div class="hamburger-box-inner"></div>
+          </div>
+        </div>
+        <div class="nav__links">
+          <ol class="nav__list">
+            <li class="nav__listItem">
+              <a class="nav__listItemLink" href="#about">About</a>
+            </li>
+            <li class="nav__listItem">
+              <a class="nav__listItemLink" href="#exp">Experience</a>
+            </li>
+            <li class="nav__listItem">
+              <a class="nav__listItemLink" href="#work">Work</a>
+            </li>
+            <li class="nav__listItem">
+              <a class="nav__listItemLink" href="#contact">Contact</a>
+            </li>
+          </ol>
+        </div>
       </nav>
-    </aside>
-  </div>
-</header>
-<main class="main">
-  <div orientation="right" class="email_side">
-    <div class="email__side-link">
-      <a  class="email__side-link-link" href="">adamtorok@outlook.hu</a>
-    </div>
-  </div>
-  <div orientation="left" class="social_side">
-    <ul class="social__side-list">
-      <a  class="social__side-link-link" href=""><i class="fab fa-github fa-1x"></i></a>
-      <a  class="social__side-link-link" href=""><i class="fab fa-facebook fa-1x"></i></a>
-      <a  class="social__side-link-link" href=""><i class="fab fa-linkedin fa-1x"></i></a>
-      <a  class="social__side-link-link" href=""><i class="fab fa-codepen fa-1x"></i></a>
-    </ul>
-  </div>
-  <section class="main__first_section">
-    <h1 class="animated fadeInUp fast">Howdy hoo, my name is</h1>
-    <h2 class="animated fadeInUp fast">Adam Torok.</h2>
-    <h3 class="animated fadeInUp slow">I build cool things for the web.</h3>
-    <p class="animated fadeInUp slow">I'm a software engineer based in Szeged, specialized in building (and occasionally designing) exceptional, high-quality websites and applications.</p>
-    <a class="main__button" href="#contact">Keep in touch</a>
-  </section>
-  <section id="about" class="about__first_section">
-    <div data-aos="fade-up" class="about__first">
-      <h3  class="about__firstHeading">About Me</h3>
-      <div  class="about__introduce">
-        Hello! I'm Adam, a software engineer based in Szeged, MA who enjoys building things that live on the internet.
-        I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
+      <div class="mobile-menu">
+        <aside class="mobile-menu-container">
+          <nav>
+            <ol class="menu__navList">
+              <li class="menu__navList-item">
+                <a href="#about">About</a>
+              </li>
+              <li class="menu__navList-item">
+                <a href="#exp">Experience</a>
+              </li>
+              <li class="menu__navList-item">
+                <a href="#work">Work</a>
+              </li>
+              <li class="menu__navList-item">
+                <a href="#contact">Contact</a>
+              </li>
+            </ol>
+          </nav>
+        </aside>
       </div>
-      <div class="about__introduce_second">
-      </div>
-      <p>Some tools I've been working with recently</p>
-      <ul class="about__skills">
-        <li>HTML & (S)CSS</li>
-        <li>jQuery</li>
-        <li>PHP</li>
-        <li>GIT</li>
-      </ul>
-    </div>
-    <div data-aos="fade-up" class="about__first_img">
-      <img src="me.jpg" alt="">
-    </div>
-  </section>
-  <section data-aos="fade-right" id="exp" class="jobs__first_section">
-    <h3 data-aos="fade-right" data-aos-duration="3000" class="jobs__firstHeading">Where I've Worked</h3>
-    <div class="jobs__introduce">
-      <h4>
-        <span>Front End Engineer</span>
-        <span class="jobs__workPlace">
-        <span>&nbsp;@&nbsp;</span>
-        <a href="https://www.boldicenter.com/index.php" target="_blank">BoldiCenter</a>
-      </span>
-      </h4>
-      <h5>Dec 2019 - Present</h5>
-      <div class="jobs__explain">
-        <ul>
-          <li>Fixing the bugs of the front-end of the page, refactor it to a cleaner codebase.</li>
-          <li>Designed and coded the user interface of the web app</li>
-          <li>Solved several problems, and made a cleander interface</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="jobs__introduce">
-      <h4>
-        <span>Co-op Front End Developer</span>
-        <span class="jobs__workPlace">
-        <span>&nbsp;@&nbsp;</span>
-        <a href="https://www.gardrobom.com/index.php" target="_blank">Gardrobom.com</a>
-      </span>
-      </h4>
-      <h5>Sept 2019 - Jan 2020</h5>
-      <div class="jobs__explain">
-        <ul>
-          <li>Built the base of the webshop, the project was built in Shopify.</li>
-          <li>I designed the user interface of the webpage.</li>
-          <li>Made several changes in the back-end to achive deferent goals.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="jobs__introduce">
-      <h4>
-        <span>Front End Developer</span>
-        <span class="jobs__workPlace">
-        <span>&nbsp;@&nbsp;</span>
-        <a href="https://www.innowa.hu/index.html" target="_blank">innowa.com</a>
-      </span>
-      </h4>
-      <h5>March 2019 - Aug 2019</h5>
-      <div class="jobs__explain">
-        <ul>
-          <li>Implemented a mailing system using PHP</li>
-          <li>Built the interface with HTML and CSS</li>
-          <li>Used different libraries to make smooth and nice animations.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section data-aos="fade-right" id="work" class="projects__first_section">
-    <h3  data-aos="fade-right"  data-aos-duration="3000" class="projects__firstHeading">Projects</h3>
-    <div class="projects__featured">
-      <div class="featured">
-        <h4>Featured Project</h4>
-        <h5>myMusic</h5>
-        <div class="featured__description">
-          <p>myMusic was a school project that I had to create by the end of the current semester. </p>
-          <p>Basically it is a media service provider where you can upload your own music.</p>
+    </header>
+    <main class="main">
+      <div orientation="right" class="email_side">
+        <div class="email__side-link">
+          <a class="email__side-link-link" href="">adamtorok@outlook.hu</a>
         </div>
-        <ul>
-          <li>jQuery</li>
-          <li>PHP</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
+      </div>
+      <div orientation="left" class="social_side">
+        <ul class="social__side-list">
+          <a class="social__side-link-link" href=""
+            ><i class="fab fa-github fa-1x"></i
+          ></a>
+          <a class="social__side-link-link" href=""
+            ><i class="fab fa-facebook fa-1x"></i
+          ></a>
+          <a class="social__side-link-link" href=""
+            ><i class="fab fa-linkedin fa-1x"></i
+          ></a>
+          <a class="social__side-link-link" href=""
+            ><i class="fab fa-codepen fa-1x"></i
+          ></a>
         </ul>
       </div>
-      <a class="featured__img" href="#">
-        <div class="img_container">
-          <img src="mymusic.png" alt="">
+      <section class="main__first_section">
+        <h1 class="animated fadeInUp fast">Howdy hoo, my name is</h1>
+        <h2 class="animated fadeInUp fast">Adam Torok.</h2>
+        <h3 class="animated fadeInUp slow">I build cool things for the web.</h3>
+        <p class="animated fadeInUp slow">
+          I'm a software engineer based in Szeged, specialized in building (and
+          occasionally designing) exceptional, high-quality websites and
+          applications.
+        </p>
+        <a class="main__button" href="#contact">Keep in touch</a>
+      </section>
+      <section id="about" class="about__first_section">
+        <div data-aos="fade-up" class="about__first">
+          <h3 class="about__firstHeading">About Me</h3>
+          <div class="about__introduce">
+            Hello! I'm Adam, a software engineer based in Szeged, MA who enjoys
+            building things that live on the internet. I develop exceptional
+            websites and web apps that provide intuitive, pixel-perfect user
+            interfaces with efficient and modern backends.
+          </div>
+          <div class="about__introduce_second"></div>
+          <p>Some tools I've been working with recently</p>
+          <ul class="about__skills">
+            <li>HTML & (S)CSS</li>
+            <li>jQuery</li>
+            <li>PHP</li>
+            <li>GIT</li>
+          </ul>
         </div>
+        <div data-aos="fade-up" class="about__first_img">
+          <img src="me.jpg" alt="" />
+        </div>
+      </section>
+      <section data-aos="fade-right" id="exp" class="jobs__first_section">
+        <h3
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          class="jobs__firstHeading"
+        >
+          Where I've Worked
+        </h3>
+        <div class="jobs__introduce">
+          <h4>
+            <span>Front End Engineer</span>
+            <span class="jobs__workPlace">
+              <span>&nbsp;@&nbsp;</span>
+              <a href="https://www.boldicenter.com/index.php" target="_blank"
+                >BoldiCenter</a
+              >
+            </span>
+          </h4>
+          <h5>Dec 2019 - Present</h5>
+          <div class="jobs__explain">
+            <ul>
+              <li>
+                Fixing the bugs of the front-end of the page, refactor it to a
+                cleaner codebase.
+              </li>
+              <li>Designed and coded the user interface of the web app</li>
+              <li>Solved several problems, and made a cleander interface</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="jobs__introduce">
+          <h4>
+            <span>Co-op Front End Developer</span>
+            <span class="jobs__workPlace">
+              <span>&nbsp;@&nbsp;</span>
+              <a href="https://www.gardrobom.com/index.php" target="_blank"
+                >Gardrobom.com</a
+              >
+            </span>
+          </h4>
+          <h5>Sept 2019 - Jan 2020</h5>
+          <div class="jobs__explain">
+            <ul>
+              <li>
+                Built the base of the webshop, the project was built in Shopify.
+              </li>
+              <li>I designed the user interface of the webpage.</li>
+              <li>
+                Made several changes in the back-end to achive deferent goals.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="jobs__introduce">
+          <h4>
+            <span>Front End Developer</span>
+            <span class="jobs__workPlace">
+              <span>&nbsp;@&nbsp;</span>
+              <a href="https://www.innowa.hu/index.html" target="_blank"
+                >innowa.com</a
+              >
+            </span>
+          </h4>
+          <h5>March 2019 - Aug 2019</h5>
+          <div class="jobs__explain">
+            <ul>
+              <li>Implemented a mailing system using PHP</li>
+              <li>Built the interface with HTML and CSS</li>
+              <li>
+                Used different libraries to make smooth and nice animations.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade-right" id="work" class="projects__first_section">
+        <h3
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          class="projects__firstHeading"
+        >
+          Projects
+        </h3>
+        <div class="projects__featured">
+          <div class="featured">
+            <h4>Featured Project</h4>
+            <h5>myMusic</h5>
+            <div class="featured__description">
+              <p>
+                myMusic was a school project that I had to create by the end of
+                the current semester.
+              </p>
+              <p>
+                Basically it is a media service provider where you can upload
+                your own music.
+              </p>
+            </div>
+            <ul>
+              <li>jQuery</li>
+              <li>PHP</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </div>
+          <a class="featured__img" href="#">
+            <div class="img_container">
+              <img src="mymusic.png" alt="" />
+            </div>
+          </a>
+        </div>
+        <div class="projects__featured">
+          <div class="featured left">
+            <h4>Featured Project</h4>
+            <h5>innowa</h5>
+            <div class="featured__description">
+              <p>
+                It was a online marketing management webpage, where you can join
+                to the influencer's life.
+              </p>
+            </div>
+            <ul class="ulleft">
+              <li>jQuery</li>
+              <li>PHP</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </div>
+          <a
+            class="featured__img featured__img-left"
+            href="https://www.innowa.hu/index.html"
+          >
+            <div class="img_container">
+              <img src="innowa.png" alt="" />
+            </div>
+          </a>
+        </div>
+        <div class="projects__featured">
+          <div class="featured">
+            <h4>Featured Project</h4>
+            <h5>Gardrobom</h5>
+            <div class="featured__description">
+              <p>
+                A basic webshop, where you can buy different clothes. Made in
+                Shopify
+              </p>
+            </div>
+            <ul>
+              <li>PHP</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Shopify</li>
+            </ul>
+          </div>
+          <a class="featured__img" href="https://www.gardrobom.com/index.php">
+            <div class="img_container">
+              <img src="gardrobom.png" alt="" />
+            </div>
+          </a>
+        </div>
+      </section>
+      <section data-aos="fade-right" id="contact" class="contact">
+        <h3 data-aos="fade-right" data-aos-duration="3000">What's Next?</h3>
+        <h4>Get In Touch</h4>
+        <div>
+          Although I'm not currently looking for freelance opportunities, my
+          inbox is always open. Whether for a potential project or just to say
+          hi, I'll try my best to answer your email!
+        </div>
+        <a class="main__button" href="mailto:adam-torok@outlook.hu"
+          >Say Hello</a
+        >
+      </section>
+    </main>
+    <footer>
+      <a href="https://github.com/adam-torok">
+        <div>Built by Adam Torok</div>
       </a>
-    </div>
-    <div class="projects__featured">
-      <div class="featured left">
-        <h4>Featured Project</h4>
-        <h5>innowa</h5>
-        <div class="featured__description">
-          <p>It was a online marketing management webpage, where you can join to the influencer's life.</p>
-        </div>
-        <ul class="ulleft">
-          <li>jQuery</li>
-          <li>PHP</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-        </ul>
-      </div>
-      <a class="featured__img featured__img-left" href="https://www.innowa.hu/index.html" >
-        <div class="img_container">
-          <img src="innowa.png" alt="">
-        </div>
-      </a>
-    </div>
-    <div class="projects__featured">
-      <div class="featured">
-        <h4>Featured Project</h4>
-        <h5>Gardrobom</h5>
-        <div class="featured__description">
-          <p>A basic webshop, where you can buy different clothes. Made in Shopify</p>
-        </div>
-        <ul>
-          <li>PHP</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Shopify</li>
-        </ul>
-      </div>
-      <a class="featured__img" href="https://www.gardrobom.com/index.php">
-        <div class="img_container">
-          <img src="gardrobom.png" alt="">
-        </div>
-      </a>
-    </div>
-  </section>
-  <section data-aos="fade-right"  id="contact" class="contact">
-    <h3 data-aos="fade-right" data-aos-duration="3000">What's Next?</h3>
-    <h4>Get In Touch</h4>
-    <div>
-Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!
-    </div>
-    <a class="main__button" href="mailto:adam-torok@outlook.hu">Say Hello</a>
-  </section>
-</main>
-<footer>
-  <a href="https://github.com/adam-torok">
-    <div>
-      Built by Adam Torok
-    </div>
-  </a>
-</footer>
-<script type="text/javascript">
-function onScrollStopped(domElement, callback, timeout = 250) {
-  domElement.addEventListener('scroll', () => {
-  	clearTimeout(callback.timeout);
-    callback.timeout = setTimeout(callback, timeout);
-  });
-}
+    </footer>
+    <script type="text/javascript">
+      function onScrollStopped(domElement, callback, timeout = 250) {
+        domElement.addEventListener("scroll", () => {
+          clearTimeout(callback.timeout);
+          callback.timeout = setTimeout(callback, timeout);
+        });
+      }
 
+      $(document).ready(function () {
+        AOS.init();
 
-$(document).ready(function(){
-  AOS.init();
+        $(document).on("scroll", function () {
+          if ($(document).scrollTop() >= 50) {
+            $(".header")
+              .css("box-shadow", "rgba(2, 12, 27, 0.7) 0px 10px 30px -10px")
+              .fadeIn("slow");
+          } else {
+            $(".header").css("box-shadow", "none").fadeIn("slow");
+          }
+        });
+        onScrollStopped(window, () => {
+          $(".header").css("box-shadow", "none").fadeIn("slow");
+        });
 
-  $(document).on("scroll", function(){
-    if ($(document).scrollTop() >= 50) {
-       $('.header').css("box-shadow","rgba(2, 12, 27, 0.7) 0px 10px 30px -10px").fadeIn('slow');
-     } else {
-          $('.header').css("box-shadow","none").fadeIn('slow');
-     }
-  });
-  onScrollStopped(window, () => {
-    $('.header').css("box-shadow","none").fadeIn('slow');
-  });
-
-  $(".hamburger").click(function(){
-    $('.mobile-menu').toggle().toggleClass('animated bounceInRight');
-  })
-})
-</script>
-</body>
+        $(".hamburger").click(function () {
+          $(".mobile-menu").toggle().toggleClass("animated bounceInRight");
+        });
+      });
+    </script>
+  </body>
 </html>
