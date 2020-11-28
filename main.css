@@ -788,6 +788,9 @@ footer{
 }
 /* MEDIA Q */
 @media (max-width:30em){
+  a{
+    color: white!important;
+  }
   .hamburger{
     display: flex;
     margin-right: 15px;
@@ -882,7 +885,6 @@ footer{
   .main{
     padding: 0px 25px;
     padding-top: 0px;
-    width: 100vw;
     padding-bottom: 0px;
   }
   .nav__links{
@@ -890,5 +892,9 @@ footer{
   }
   body{
     font-size: 18px;
+  }
+
+  .contact h4{
+    font-size: 40px;
   }
 }
